@@ -1,0 +1,20 @@
+{
+    "name": "pyperdok/tapigo-php-core",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Pyperdok\\TapigoPhpCore\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pyperdok"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "illuminate/http": "^12.36",
+        "illuminate/support": "^12.36",
+        "guzzlehttp/guzzle": "^7.10"
+    }
+}
