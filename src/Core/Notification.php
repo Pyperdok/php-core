@@ -15,7 +15,7 @@ class Notification {
         try {
             $data = [
                 'type' => $type,
-                'data' => $data
+                'data' => $data,
                 'owner_id' => $data['owner_id'] ?? null,
                 'owner_type' => $data['owner_type'] ?? null,
             ];
