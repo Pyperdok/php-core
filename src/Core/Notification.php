@@ -11,7 +11,7 @@ class Notification {
     const PUSH = 'PUSH';
     const EMAIL = 'EMAIL';
 
-    public static function message(string $type, array $data): Response|null {
+    public static function message(string $type, array $data) {
         try {
             $data = [
                 'type' => $type,
