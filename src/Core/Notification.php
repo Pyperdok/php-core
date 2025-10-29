@@ -1,5 +1,7 @@
 <?php
 
+namespace Tapigo\Core;
+
 use Illuminate\Support\Facades\Http;
 
 class Notification {
